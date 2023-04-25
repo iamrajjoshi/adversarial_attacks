@@ -1,3 +1,4 @@
+# +
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -7,6 +8,9 @@ import torchvision.models as models
 
 import matplotlib.pyplot as plt
 import numpy as np
+
+
+# -
 
 # FGSM attack code
 def fgsm_attack(image, epsilon, data_grad):
